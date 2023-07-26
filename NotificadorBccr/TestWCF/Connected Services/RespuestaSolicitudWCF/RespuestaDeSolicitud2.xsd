@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Bccr.Firma.Fva.Entidad.Contenedores" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Bccr.Firma.Fva.Entidad.Contenedores" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ResultadoDeFirma">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodigoDeError" type="xs:int" />
+      <xs:element minOccurs="0" name="DocumentoFirmado" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="FueExitosa" type="xs:boolean" />
+      <xs:element minOccurs="0" name="HashDelDocumentoFirmadoEnBytes" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="HashDocumentoFirmado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDAlgoritmoHashDocumentoFirmado" type="xs:int" />
+      <xs:element minOccurs="0" name="IdDeLaSolicitud" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResultadoDeFirma" nillable="true" type="tns:ResultadoDeFirma" />
+</xs:schema>

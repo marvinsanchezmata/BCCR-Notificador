@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificadorBCCR", "NotificadorBCCR\NotificadorBCCR.csproj", "{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWCF", "TestWCF\TestWCF.csproj", "{F023BD62-1BE6-4C51-A9FA-0BFCBFCCCCAD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A} = {E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54FD497-F5BD-49A2-9A5F-72339B1E7B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F023BD62-1BE6-4C51-A9FA-0BFCBFCCCCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F023BD62-1BE6-4C51-A9FA-0BFCBFCCCCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F023BD62-1BE6-4C51-A9FA-0BFCBFCCCCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F023BD62-1BE6-4C51-A9FA-0BFCBFCCCCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96BD7398-E16B-4D2E-83A8-C776A13B5F61}
+	EndGlobalSection
+EndGlobal
